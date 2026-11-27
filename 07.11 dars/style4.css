@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-color: #93a9c5;
+    display: flex;
+    /*sentrega oladi*/
+    /*justify-content: center;*/
+    /*bitta ortada 2ta ikki yonboshda*/
+    justify-content: space-between;
+    /*ikki yonboshda joy ochilib bir xil masofa oladi*/
+    /*justify-content: space-around;*/
+    /*align-items: center; hammasini razmeridan qattiy nazr hammasini o'rtaga oladi*/
+    align-items: center;
+    gap: 20px;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background: orangered;
+}
+.box2 {
+    width: 200px;
+    height: 400px;
+    background: #0d4d93;
+}
+.box3 {
+    width: 200px;
+    height: 800px;
+    background: #91f106;
+}
+.box4 {
+    width: 200px;
+    height: 600px;
+    background: #d11a1a;
+}

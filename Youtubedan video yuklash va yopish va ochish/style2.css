@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px;
+    padding: 20px;
+    /*border: 2px solid grey;*/
+    border-radius: 12px;
+    height: 700px;
+}
+
+.center {
+    padding: 10px 14px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: orangered;
+    border: 2px solid #dcb7b7;
+    border-radius: 12px;
+    cursor: pointer;
+
+
+}
+
+.center1 {
+    padding: 10px 14px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #6c9c2b;
+    border: 2px solid #dcb7b7;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.button {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}

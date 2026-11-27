@@ -1,0 +1,27 @@
+* {
+    bottom: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #e6dddd;
+}
+.box {
+    background: #ffffff;
+    margin: 40px;
+    padding: 30px;
+    width: 95%;
+    border-radius: 15px;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+}
+.box img {
+    background-color: #ffffff;
+    border-radius: 12px;
+}
+.box p {
+    text-align: left;
+    font-size: 25px;
+    color: #474040;
+}

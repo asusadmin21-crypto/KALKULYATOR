@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 50px;
+}
+#asosiy{
+    padding: 20px;
+    width: 580px;
+    height: 420px;
+    border: 2px solid gray;
+    border-radius: 13px;
+    background-color: orange;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+    margin: 20px;
+}
+select{
+    padding: 8px 14px;
+    border: none;
+    font-size: 20px;
+    color: gray;
+    background-color: white;
+    border-radius: 12px;
+}
+button{
+    padding: 10px 20px;
+    border: none;
+    margin: 10px;
+    background-color: #007bff;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}

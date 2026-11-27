@@ -1,0 +1,23 @@
+* {
+    bottom: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #d8cbcb;
+}
+.section1 {
+    background-color: #ffffff;
+    width: 90%;
+    height: 90%;
+    margin: 30px;
+    padding: 50px;
+}
+.btn {
+    background-color: #02316a;
+    margin: 20px;
+    border-radius: 15px;
+    height: 100%;
+    text-align: center;
+    /*padding: 10px;*/
+}

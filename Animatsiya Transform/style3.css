@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 50px;
+    background-color: #ffffff;
+}
+.asosiy {
+    height: 400px;
+    border: 1px solid #9e8e8e;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8fafc;
+}
+.bosqich {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 14px;
+    animation: azimjon 2s infinite alternate;
+    cursor: pointer;
+}
+.bosqich:hover{
+    animation-play-state: paused;
+}
+@keyframes azimjon {
+    0% {
+        background-color: red;
+        transform: scale(1) rotate(0deg);
+    }
+    50%{
+        background-color: orange;
+        transform: scale(1.4) rotate(45deg);
+    }
+    100% {
+        background-color: green;
+        transform: scale(1) rotate(0deg);
+    }
+}

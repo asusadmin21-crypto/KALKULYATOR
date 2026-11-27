@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 20px;
+}
+.clas1 {
+    background-color: #a9b8d3;
+    border: 3px dashed #434a67;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.div1 {
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.alfa {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #0e258f;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div2 {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+.btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.button1 {
+    width: 50%;
+    background-color: #0e258f;
+    color: white;
+    padding: 10px;
+    border: 1px solid #194088;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+.button2 {
+    width: 50%;
+    background-color: white;
+    color: blue;
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+.button1:hover {
+    background-color: white;
+    color: blue;
+}
+.button2:hover {
+    background-color:blue;
+    color: white;
+}

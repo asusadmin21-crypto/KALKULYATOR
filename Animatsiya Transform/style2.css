@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 50px;
+    background-color: #ffffff;
+}
+.kattasi {
+    border: 1px solid #7a7777;
+    background-color: rgb(239 220 220 / 0.98);
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.birinchi  {
+    width: 300px;
+    height: 300px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    background-color: #ffffff;
+    /*font-size: 20px;*/
+    overflow: visible;
+}
+.birinchi p{
+    width: 400px;
+    font-size: 25px;
+    transition: 0.3s ease-in-out;
+}
+.birinchi:hover p{
+    font-size: 30px;
+    /*cursor: zoom-in;*/
+}
+.ikkinchi {
+    width: 300px;
+    height: 300px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    background-color: #ffffff;
+    font-size: 20px;
+    overflow: hidden;
+}
+.ikkinchi p{
+    width: 400px;
+    font-size: 25px;
+    transition: 0.3s ease-in-out;
+}
+.ikkinchi:hover p{
+    font-size: 30px;
+    cursor: zoom-in;
+}
+
+.uchinchi {
+    width: 300px;
+    height: 300px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    background-color: #ffffff;
+    font-size: 20px;
+    overflow: scroll;
+}
+.uchinchi p{
+    width: 400px;
+    font-size: 25px;
+    transition: 0.3s ease-in-out;
+}
+.uchinchi:hover p {
+    font-size: 30px;
+    cursor: zoom-in;
+}
+.tortinchi {
+    width: 300px;
+    height: 300px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    background-color: #ffffff;
+    font-size: 20px;
+    overflow: auto;
+}
+    .tortinchi p{
+     width: 400px;
+     font-size: 25px;
+     transition: 0.3s ease-in-out;
+ }
+    .tortinchi:hover p {
+        font-size: 30px;
+        cursor: zoom-in;
+    }

@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ddd5d5;
+    font-family: 'Arial', sans-serif;
+}
+header {
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px #170e0e solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    text-decoration: none;
+}
+.nav1 {
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    color: #8a5826;
+
+}
+.img1 img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+.img1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #302820;
+
+}
+.cofe {
+    color: #251414;
+    background-color: #d8cbcb;
+    font-weight: bold;
+}
+.img1 strong {
+    color: #755b5b;
+    height: 20px;
+}
+.menyu {
+    color: #8c7575;
+    text-decoration: none;
+}
+.buyurtma {
+    color: #ffffff;
+    background-color: #492727;
+   text-decoration: none;
+    padding: 8px;
+    border-radius: 15px;
+    text-align: center;
+    gap: 10px;
+}
+.nav2 {
+    text-decoration: none;
+    display: flex;
+    color: #8a5826;
+}
+.div1 {
+    gap: 10px;
+    width: 60%;
+    height: 80%;
+    text-align: center;
+    margin: 15px;
+    padding: 60px;
+    border-radius: 15px;
+    border: 0px #170e0e solid;
+
+}
+.para {
+    margin-top: 10px;
+    text-align: left;
+    line-height: 1.6;
+}
+.div2 {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+   gap: 40px;
+
+}
+.button1 {
+color: #ffffff;
+background-color: #251414;
+padding: 12px;
+border-radius: 15px;
+    margin: 1px;
+}
+.button2 {
+    color: #493838;
+    background-color: #e1d5d5;
+    padding: 12px;
+    border-radius: 15px;
+}
+.img4 {
+    display: flex;
+    gap: 10px;
+    width: 400px;
+    height: 400px;
+
+}
+.div5 {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+
+
+
+}
+.main {
+    display: flex;
+    justify-content: center;
+    border: 2px solid #2c1717;
+    border-radius: 12px;
+    margin: 18px;
+    background-color: #ffffff;
+
+}
+.div5 img {
+    width: 250px;
+    height: 250px;
+    border-radius: 12px;
+    margin: 20px;
+}
